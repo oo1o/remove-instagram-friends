@@ -4,7 +4,9 @@ from time import sleep
 #Remove all the number of friends you follow on Instagram 
 #before running the tool. You have to download chromedriver browser * does not work on mobile devices *
 #قم بإزالة كل عدد الأصدقاء الذين تتابعهم على انستغرام  قبل تشغيل الأداة. يجب عليك تنزيل متصفح كروم درايفر لا يعمل على الأجهزة المحمولة
-
+#by naplon
+#add snapchat: ii42
+#------------------
 ch = input("[*]Enter the >chromedriver< path: ")
 
 driver = webdriver.Chrome(executable_path=f"{ch}")
